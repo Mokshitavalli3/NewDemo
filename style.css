@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #ffd60a;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+header button {
+    background-color: #333;
+    color: #ffd60a;
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+header a {
+    text-decoration: none;
+}
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #f0e6b8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section h1 {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ffd60a;
+    padding-bottom: 8px;
+}
+#Skills ol {
+    padding-left: 25px;
+}
+
+#Skills li {
+    margin-bottom: 8px;
+}
+#Achievement img {
+    display: block;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+#Achievement button {
+    background-color: #ffd60a;
+    color: #333;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#Achievement button:hover {
+    background-color: #e6c009;
+}
+
+/* ===== Contact Form ===== */
+#ContactMe form label {
+    display: inline-block;
+    width: 80px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#ContactMe input[type="text"],
+#ContactMe input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#ContactMe input[type="radio"] {
+    margin-right: 5px;
+}
+
+#ContactMe button[type="Submit"] {
+    background-color: #ffd60a;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#ContactMe button[type="Submit"]:hover {
+    background-color: #e6c009;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffd60a;
+    color: #333;
+    margin-top: 20px;
+}
